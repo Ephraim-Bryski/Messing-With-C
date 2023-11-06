@@ -1,0 +1,34 @@
+creating arrays:
+    all values are set to 0, then assigned values are set
+    asm instructions sometimes set 0 in a loop (depends on how many 0s)
+
+printing
+    asm calls printf
+        printf uses stack, tos is the string, then going down are the values to input
+
+floating point
+    used pointer hack (casted float pointer to int pointer), and then printed binary
+        hack not at all needed, could literally just print the binary of the float
+            although it actually kind of is since bitwise and is only allowed for ints
+    seems like
+        first bit is sign?
+        then four bits for exponent
+        then the rest for value
+
+structures
+    the assembly just puts structure values on the stack, order they're declared in the structure
+
+so null is actually just 0 cast
+
+things to explore
+    that thing linus torvalds mentioned in the ted talk about linked lists
+    
+
+other things i would wanna do
+    multithreading <-- the library required doesnt come with it D:<
+    implementing hash tables
+    matrices (implementing/using their one)
+    figuring out how to do the stuff i made with other data types
+    
+    
+
