@@ -1,3 +1,0 @@
-gcc -Wall -Wextra -S -fverbose-asm  -march=x86-64 $1
-gcc -g $1
-./a

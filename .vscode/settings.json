@@ -4,7 +4,9 @@
         "corecrt.h": "c",
         "concurrencysal.h": "c",
         "stdlib.h": "c",
-        "math.h": "c"
+        "math.h": "c",
+        "windows.h": "c",
+        "string.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabledIfIncludesResolve"
 }
